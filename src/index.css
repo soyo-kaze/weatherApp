@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.app {
+  background-image: url("../media/warm.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease;
+}
+.cold {
+  background-image: url("../media/cold.jpg");
+}
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.75)
+  );
+}
+.contain {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.search {
+  margin: 40px;
+}
+.search-box {
+  padding: 20px;
+  width: 100%;
+  appearance: none;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  background-color: rgba(255, 255, 255, 0.75);
+  transition: 0.4s ease-out;
+}
+.search-box:focus {
+  background-color: rgba(255, 255, 255, 1);
+  transition: 0.4s ease-out;
+}
+.weather {
+  margin: 30px;
+}
+.location {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: aliceblue;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+}
+.temp {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(255, 255, 255, 0.268);
+  margin: 20px;
+  padding: 40px;
+  font-size: 60px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  transition: 0.4s ease-out;
+  display: inline-block;
+}
+.time {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  color: aliceblue;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+}
+.atmos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  color: aliceblue;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+}
